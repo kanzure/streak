@@ -14,3 +14,6 @@ while [ $counter -le 1000000 ]; do
 
     counter=$(( $counter + 1 ))
 done
+
+# make things smaller
+git gc
