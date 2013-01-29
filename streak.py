@@ -14,8 +14,7 @@ def pixel2bit(pixel, threshold=1):
     """
     if pixel != 0:
         return 1
-    else:
-        return 0
+    return 0
 
 def pixels2bitmap(pixels, width=52, height=7):
     """
